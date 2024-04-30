@@ -9,6 +9,8 @@
     align-items: center;
     text-align: center;
     height: 22vh;
+    position: sticky;
+    top: 0;
 }.icons{
     height: 6vh;
     width:6vh;
