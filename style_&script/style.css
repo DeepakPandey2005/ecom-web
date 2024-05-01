@@ -21,6 +21,8 @@
     background-color: yellow;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 2;
 }
 ul{
     padding: 25px;
@@ -63,7 +65,7 @@ footer{
     height: 30vh;
     width: 30vh;
     border: 4px solid black;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 .fashion{
     border: 8px solid darkgreen;
@@ -92,7 +94,7 @@ footer{
 .tech{
     border: 18px solid darkgray;
     background-color: lightgray;
-    height: 360vh;
+    height: 390vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -102,36 +104,37 @@ footer{
     height: 50vh;
     width: 50vw;
     border: 4px solid black;
-    border-radius: 20px;}
+    border-radius: 30px;}
     .nothingimg
 {height: 50vh;
     width: 50vh;
     border: 10px solid red;
-    border-radius: 20px;
-    animation: notty 2s linear  infinite alternate;
+    border-radius: 15%;
+    animation: notty 4s ease  infinite normal;
 
 }
     .nothing{
-    background-color: yellowgreen;
+    background-color: aqua;
     height : 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 
 }
 #btn{
-    background-color: darkolivegreen;
-    color: wheat;
+    background-color: greenyellow;
+    color: black;
     height: 8vh;
     width: 18vw;
     float: right;
     font-size: x-large;
+    border: 10px double purple ;
 }
 
 @keyframes notty {
-    0%{ border: 20px;}
-
-    50%{border: 100px;}
-    
+    0%{ border: 20px solid red;}
+    50%{border: 50px double yellow;}
+    100%{border: 80px dashed green;}
 }
