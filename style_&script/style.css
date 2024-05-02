@@ -11,7 +11,11 @@
     height: 22vh;
     position: sticky;
     top: 0;
-}.icons{
+}
+    #navitem:hover{
+        color: red;
+    }
+.icons{
     height: 6vh;
     width:6vh;
     border:2px solid red ;
@@ -124,13 +128,17 @@ footer{
 
 }
 #btn{
-    background-color: greenyellow;
-    color: black;
+    background-color: brown;
+    color: white;
     height: 8vh;
     width: 18vw;
     float: right;
     font-size: x-large;
-    border: 10px double purple ;
+    border: 6px solid black ;
+}
+#btn:hover{
+    color: black;
+    background-color: greenyellow;
 }
 
 @keyframes notty {
